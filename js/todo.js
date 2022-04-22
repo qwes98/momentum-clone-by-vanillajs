@@ -1,3 +1,7 @@
+/*
+  TODO 리스트 기능
+  TODO 리스트에 새로운 할일을 추가, 삭제할 수 있음
+*/
 const toDoForm = document.getElementById("todo-form");
 const toDoInput = document.querySelector("#todo-form input");
 const toDoList = document.getElementById("todo-list");
@@ -47,6 +51,7 @@ toDoForm.addEventListener("submit", handleToDoSubmit);
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
 
+// 페이지 로딩 시 변수 초기화
 if (savedToDos !== null) {
   const parsedToDos = JSON.parse(savedToDos);
   toDos = parsedToDos;

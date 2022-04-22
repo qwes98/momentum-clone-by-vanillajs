@@ -1,3 +1,8 @@
+/*
+  위치, 날씨 기능
+  사용자의 위치를 인식해 날씨를 보여주는 기능으로,
+  날씨 관련 API 사용
+*/
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
 const API_KEY = "241051bf13976dd3ddf8b8d9f247255e";

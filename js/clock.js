@@ -1,3 +1,8 @@
+/* 
+  시계 기능 
+  1초마다 현재 시간을 계산에 화면에 보여줌
+*/
+
 const clock = document.querySelector("h2#clock");
 
 function getClock() {

@@ -1,3 +1,7 @@
+/*
+  quotes 기능
+  quotes 를 저장해놓고, 랜덤으로 보여줌
+*/
 const quotes = [
   {
     quote: "The way to get started is to quit talking and begin doing.",
